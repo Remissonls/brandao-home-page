@@ -1,3 +1,8 @@
 {
-  "trailingSlash": true
+  "rewrites": [
+    { "source": "/zion", "destination": "/zion/index.html" },
+    { "source": "/zion/", "destination": "/zion/index.html" },
+    { "source": "/mood-jacarecica", "destination": "/mood-jacarecica/index.html" },
+    { "source": "/mood-jacarecica/", "destination": "/mood-jacarecica/index.html" }
+  ]
 }
